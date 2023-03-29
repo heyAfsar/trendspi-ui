@@ -1,0 +1,27 @@
+
+.container{
+    display: flex;
+    border: 1px solid black;
+    box-shadow: 1px 1px;
+    background-color: rgb(255, 255, 255);
+    justify-content: center;
+    margin: auto;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+    block-size: 470px;
+    inline-size: 500px;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.form{
+    display: inline-block;
+    justify-content: center;
+    margin: auto;
+    flex-wrap: wrap;
+}
+.MuiInputBase-root{
+    margin-inline-end: 10px;
+    margin-inline-start: 10px;
+}
